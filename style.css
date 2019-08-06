@@ -1,7 +1,14 @@
-* {
-	font-family:Roboto;
-	font-weight:bold;
+@font-face {
+    font-family:'Roboto-Bold';
+    src:url(assets/fonts/Roboto-Bold.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
+
+* {
+	font-family:Roboto-Bold;
+}
+
 
 body {
 	margin:0;
